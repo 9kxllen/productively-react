@@ -7,44 +7,55 @@ import NotificationsOutlinedIcon from '@material-ui/icons/NotificationsOutlined'
 const Navbar = () => {
 	return (
 		<StyledNavbar>
-			<h1>Productively</h1>
-			<ul>
-				<li>
-					<span>New</span>
-					<div className="icon">
-						<AddOutlinedIcon />
-					</div>
-				</li>
-				<li>
-					<span>Notifications</span>
-					<div className="icon">
-						<NotificationsOutlinedIcon />
-					</div>
-				</li>
-				<li>
-					<span>Settings</span>
-					<div className="icon">
-						<SettingsOutlinedIcon />
-					</div>
-				</li>
-				<li>
-					<span className="username">Username</span>
-					<Avatar />
-				</li>
-			</ul>
+			<div className="container">
+				<a href="#">
+					<h1>Productively</h1>
+				</a>
+				<ul>
+					<li>
+						<span>New</span>
+						<div className="icon">
+							<AddOutlinedIcon />
+						</div>
+					</li>
+					<li>
+						<span>Notifications</span>
+						<div className="icon">
+							<NotificationsOutlinedIcon />
+						</div>
+					</li>
+					<li>
+						<span>Settings</span>
+						<div className="icon">
+							<SettingsOutlinedIcon />
+						</div>
+					</li>
+					{/* <li>
+						<span className="username">Username</span>
+						<Avatar />
+					</li> */}
+				</ul>
+			</div>
 		</StyledNavbar>
 	);
 };
 
 const StyledNavbar = styled.nav`
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	/* display: flex; */
 	width: 100%;
 	height: 6vh;
 	padding: 0rem 2rem;
 	background: #f8f9fa;
 	color: #212529;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1200px;
+		height: 100%;
+		margin: 0 auto;
+	}
 
 	h1 {
 		color: #0066ff;
@@ -57,14 +68,16 @@ const StyledNavbar = styled.nav`
 		justify-content: center;
 		align-items: center;
 		list-style: none;
+		font-size: 0.85rem;
 	}
 
 	li {
-		margin: 0 1rem;
+		margin: 0 0.5rem;
 		cursor: pointer;
 		display: flex;
 		align-items: center;
 		line-height: 1;
+		font-weight: bold;
 
 		.icon {
 			margin-left: 0.5rem;

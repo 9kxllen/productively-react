@@ -19,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
     background-position: center;
     background-size: cover;
   }
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export default GlobalStyle;

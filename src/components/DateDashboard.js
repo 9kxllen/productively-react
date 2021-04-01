@@ -4,7 +4,6 @@ import Clock from 'react-live-clock';
 const DateDashboard = () => {
 	return (
 		<Wrapper>
-			<p>Good Morning : Afternoon : Evening, Name.</p>
 			<h3>
 				<Clock format="dddd, MMMM Do" />
 			</h3>

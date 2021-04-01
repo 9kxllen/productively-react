@@ -41,7 +41,8 @@ const StyledNavbar = styled.nav`
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	padding: 0.75rem 2rem;
+	height: 6vh;
+	padding: 0rem 2rem;
 	background: #f8f9fa;
 	color: #212529;
 

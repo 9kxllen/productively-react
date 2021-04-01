@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom right, #7474bf, #348ac7);
+    background: linear-gradient(to bottom right, #36d1dc, #5b86e5); 
     color: #F8F9FA;
     height: 100vh;
     width: 100vw;

@@ -19,9 +19,6 @@ const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	height: 92vh;
-	width: 100vw;
 
 	h2 {
 		font-size: 5rem;

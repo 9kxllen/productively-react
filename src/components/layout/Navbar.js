@@ -28,8 +28,8 @@ const Navbar = () => {
 					</div>
 				</li>
 				<li>
-					<span className="username">Rens</span>
-					<Avatar src="https://pbs.twimg.com/profile_images/1254857757825675264/RpyGex2r_400x400.jpg" />
+					<span className="username">Username</span>
+					<Avatar />
 				</li>
 			</ul>
 		</StyledNavbar>

@@ -6,10 +6,10 @@ const DateDashboard = () => {
 		<Wrapper>
 			<p>Good Morning : Afternoon : Evening, Name.</p>
 			<h3>
-				<Clock format="dddd, MMMM do" />
+				<Clock format="dddd, MMMM Do" />
 			</h3>
 			<h2>
-				<Clock format="HH:mm:ss" interval={1000} ticking={true} />
+				<Clock format="HH:mm:ss A" interval={1000} ticking={true} />
 			</h2>
 		</Wrapper>
 	);

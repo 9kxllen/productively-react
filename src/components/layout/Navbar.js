@@ -47,6 +47,8 @@ const StyledNavbar = styled.nav`
 	padding: 0rem 2rem;
 	background: #f8f9fa;
 	color: #212529;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 10px;
+}
 
 	.container {
 		display: flex;

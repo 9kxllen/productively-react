@@ -61,7 +61,7 @@ const StyledNavbar = styled.nav`
 
 	h1 {
 		color: #0066ff;
-		font-size: 2rem;
+		font-size: 2.25rem;
 		font-family: 'Lobster', cursive;
 	}
 
